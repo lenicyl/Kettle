@@ -14,5 +14,6 @@
     "bin" : [
         "jenv.bat",
         "jenv.ps1"
-    ]
+    ],
+    "notes" : "Test"
 }
