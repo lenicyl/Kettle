@@ -15,6 +15,10 @@
             "Flow Launcher"
         ]
     ],
+    "persist":[
+        "Plugins",
+        "Themes"
+    ],
     "suggest": {
         "python":"python"
     },
