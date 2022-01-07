@@ -23,6 +23,6 @@
         "github": "https://github.com/Flow-Launcher/Flow.Launcher"
     },
     "autoupdate": {
-        "url":"https://github.com/Flow-Launcher/Flow.Launcher/releases/download/v$version/Flow-Launcher-$version-full.nupkg"
+        "url":"https://github.com/Flow-Launcher/Flow.Launcher/releases/download/v$version/FlowLauncher-$version-full.nupkg"
     }
 }
