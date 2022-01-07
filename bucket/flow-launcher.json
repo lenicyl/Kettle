@@ -1,28 +1,26 @@
 {
-    "version": "v1.9.0",
+    "version": "1.9.1",
     "description": "Quick file search & app launcher for Windows with community-made plugins",
     "homepage": "https://www.flowlauncher.com",
     "license": "MIT",
-    "url": "https://github.com/Flow-Launcher/Flow.Launcher/releases/download/v1.9.0/FlowLauncher-1.9.0-full.nupkg#/dl.7z",
-    "hash": "FE6893FA72997A6DD92A7B67341D212C5694A6AAD5EC0FB66FF31FC3A47F1ADC",
+    "url": "https://github.com/Flow-Launcher/Flow.Launcher/releases/download/v1.9.1/FlowLauncher-1.9.1-full.nupkg",
+    "hash": "050c5b13e58aaced52852ed551d4b1a78e3710cbd39e495e03e80bf3c11f5833",
     "extract_dir": "lib\\net5.0-windows",
-    "bin":[
-        "Flow.Launcher.exe"
-    ],
+    "bin": "Flow.Launcher.exe",
     "shortcuts": [
         [
             "Flow.Launcher.exe",
             "Flow Launcher"
         ]
     ],
-    "persist":"UserData",
+    "persist": "UserData",
     "suggest": {
-        "python":"python"
+        "python": "python"
     },
-    "checkver":{
+    "checkver": {
         "github": "https://github.com/Flow-Launcher/Flow.Launcher"
     },
     "autoupdate": {
-        "url":"https://github.com/Flow-Launcher/Flow.Launcher/releases/download/v$version/FlowLauncher-$version-full.nupkg"
+        "url": "https://github.com/Flow-Launcher/Flow.Launcher/releases/download/v$version/FlowLauncher-$version-full.nupkg"
     }
 }
