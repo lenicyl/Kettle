@@ -1,0 +1,19 @@
+{
+    "version": "unknown",
+    "description": "Send Files to kindle easily",
+    "homepage": "https://www.amazon.com/sendtokindle/pc",
+    "license": "Unlicense",
+    "notes": "The license and version is unknown by me, the reason is that i dont care about this software. If you have the info please open an issue"
+    "url": "https://s3.amazonaws.com/sendtokindle/SendToKindleForPC-installer.exe",
+    "hash": "38A173669B3056F1C81E24145153BE2B781C2C9E44E0EAFD01E5C93D6DEEB1F0",
+    "pre_install": [
+        "Expand-7ZipArchive \"$dir\\SendToKindleForPC-installer.exe\""
+    ],
+    "bin": "SendToKindle.exe",
+    "shortcuts": [
+        [
+            "sendtokindle.exe",
+            "SendToKindle"
+        ]
+    ]
+}
