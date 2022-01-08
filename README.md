@@ -1,6 +1,6 @@
 # The Kettle Bucket
 
-[![Build Status](https://ci.appveyor.com/api/projects/status/<appveyor-badge-id>?svg=true)](https://ci.appveyor.com/project/Lenicyl/Kettle "Build Status") [![Excavator](https://github.com/Lenicyl/Kettle/actions/workflows/excavator.yml/badge.svg)](https://github.com/Lenicyl/Kettle/actions/workflows/excavator.yml)
+[![Build Status](https://ci.appveyor.com/api/projects/status/32r7s2skrgm9ubva?svg=true)](https://ci.appveyor.com/project/Lenicyl/Kettle "Build Status") [![Excavator](https://github.com/Lenicyl/Kettle/actions/workflows/excavator.yml/badge.svg)](https://github.com/Lenicyl/Kettle/actions/workflows/excavator.yml)
 
 Yet another bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
 This focuses on apps not found on other Buckets
