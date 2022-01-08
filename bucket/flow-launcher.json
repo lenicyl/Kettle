@@ -1,9 +1,9 @@
 {
-    "version": "1.9.0",
+    "version": "1.9.1",
     "description": "Quick file search & app launcher for Windows with community-made plugins",
     "homepage": "https://www.flowlauncher.com",
     "license": "MIT",
-    "url": "https://github.com/Flow-Launcher/Flow.Launcher/releases/download/v1.9.0/Flow-Launcher-Portable.zip",
+    "url": "https://github.com/Flow-Launcher/Flow.Launcher/releases/download/v1.9.1/Flow-Launcher-Portable.zip",
     "extract_dir": "FlowLauncher",
     "bin": "Flow.Launcher.exe",
     "shortcuts": [
@@ -14,7 +14,10 @@
     ],
     "persist": [
         "UserData",
-        ["app-1.9.0\\UserData", "UserData"]
+        [
+            "app-1.9.1\\UserData",
+            "UserData"
+        ]
     ],
     "suggest": {
         "python": "python"
@@ -26,7 +29,10 @@
         "url": "https://github.com/Flow-Launcher/Flow.Launcher/releases/download/v$version/Flow-Launcher-Portable.zip",
         "persist": [
             "UserData",
-            ["app-$version\\UserData", "UserData"]
+            [
+                "app-$version\\UserData",
+                "UserData"
+            ]
         ]
     }
 }
