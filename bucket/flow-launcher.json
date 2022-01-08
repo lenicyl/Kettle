@@ -1,30 +1,32 @@
 {
-    "version": "1.9.1",
+    "version": "1.9.0",
     "description": "Quick file search & app launcher for Windows with community-made plugins",
     "homepage": "https://www.flowlauncher.com",
     "license": "MIT",
-    "notes": "The \"Restart Flow\" function might be broken for now. Sorry for the inconvinience",
-    "suggest": {
-        "python": "python"
-    },
-    "architecture": {
-        "64bit": {
-            "url": "https://github.com/Flow-Launcher/Flow.Launcher/releases/download/v1.9.1/FlowLauncher-1.9.1-full.nupkg",
-            "hash": "050c5b13e58aaced52852ed551d4b1a78e3710cbd39e495e03e80bf3c11f5833"
-        }
-    },
-    "extract_dir": "lib\\net5.0-windows",
+    "url": "https://github.com/Flow-Launcher/Flow.Launcher/releases/download/v1.9.0/Flow-Launcher-Portable.zip",
+    "extract_dir": "FlowLauncher",
+    "bin": "Flow.Launcher.exe",
     "shortcuts": [
         [
             "Flow.Launcher.exe",
             "Flow Launcher"
         ]
     ],
-    "persist": "UserData",
+    "persist": [
+        "UserData",
+        ["app-1.9.0\\UserData", "UserData"]
+    ],
+    "suggest": {
+        "python": "python"
+    },
     "checkver": {
         "github": "https://github.com/Flow-Launcher/Flow.Launcher"
     },
     "autoupdate": {
-        "url": "https://github.com/Flow-Launcher/Flow.Launcher/releases/download/v$version/FlowLauncher-$version-full.nupkg"
+        "url": "https://github.com/Flow-Launcher/Flow.Launcher/releases/download/v$version/Flow-Launcher-Portable.zip",
+        "persist": [
+            "UserData",
+            ["app-$version\\UserData", "UserData"]
+        ]
     }
 }
