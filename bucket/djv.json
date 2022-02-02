@@ -16,5 +16,14 @@
             "bin/djv.exe",
             "DJV"
         ]
-    ]
+    ],
+    "checkver":{
+        "github": "https://github.com/darbyjohnston/DJV"
+    },
+    "autoupdate": {
+        "architecture": {
+            "url" : "https://github.com/darbyjohnston/DJV/releases/download/$version/DJV-$version-win64.zip",
+            "extract_dir" : "DJV-$version-win64"
+        }
+    }
 }
