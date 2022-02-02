@@ -4,6 +4,7 @@
     "homepage": "https://tidal.com",
     "license": "Proprietary",
     "url": "https://download.tidal.com/desktop/TIDALSetup.exe",
+    "hash": "c393be2e29ba3014f2107aea5d84ccc9dacb53772f0e477f9bc9a869137cd7de",
     "installer": {
         "script": [
             "Expand-7zipArchive \"$dir\\TIDALSetup.exe\"",
