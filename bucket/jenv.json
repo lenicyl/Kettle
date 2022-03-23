@@ -1,19 +1,12 @@
 {
-    "version": "unknown-1",
-    "description": "Java utitlity to change your current Java version with one line",
+    "version": "2.0.206",
+    "description": "Change your current Java version with one line",
     "homepage": "https://github.com/FelixSelter/JEnv-for-Windows",
     "license": "Apache-2.0",
-    "url" : [
-        "https://raw.githubusercontent.com/FelixSelter/JEnv-for-Windows/main/jenv.bat",
-        "https://raw.githubusercontent.com/FelixSelter/JEnv-for-Windows/main/jenv.ps1"
-    ],
-    "hash" :[
-        "71A3FA787C3390495646B4EE625733420C1520187572CC5DBFAA46A4BF48CD56",
-        "3451F942A89C3CD9C30EDC70C99115AC5E1576C3624055C841753ECAAC00D669"
-    ], 
+    "url" : "https://github.com/FelixSelter/JEnv-for-Windows/releases/download/v2.0.206/JEnv.zip#/dl.7z",
+    "hash" : "87F5036501BEAC6FF309A116B8A8BDCCB6D06867C17FEC145BD2B109E4D973A1",
     "bin" : [
         "jenv.bat",
         "jenv.ps1"
-    ],
-    "notes" : "Test"
+    ]
 }
