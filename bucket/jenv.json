@@ -8,5 +8,11 @@
     "bin" : [
         "jenv.bat",
         "jenv.ps1"
-    ]
+    ],
+    "checkver":{
+        "github": "https://github.com/FelixSelter/JEnv-for-Windows"
+    },
+    "autoupdate": {
+            "url" : "https://github.com/FelixSelter/JEnv-for-Windows/releases/download/v$version/JEnv.zip#/dl.7z"
+    }
 }
