@@ -26,7 +26,8 @@
             "$version = (Get-Item $dl).VersionInfo.ProductVersion",
             "Move-Item -Force $dl -Destination (cache_path 'Tidal' $version $dl_url)",
             "return $version"
-        ]
+        ],
+        "regex": "(.+)"
     },
     "autoupdate": {
         "url": "https://download.tidal.com/desktop/TIDALSetup.exe"
