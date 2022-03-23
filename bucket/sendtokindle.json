@@ -1,14 +1,12 @@
 {
-    "version": "1.1.0.253",
+    "version": "2.30.0.0",
     "description": "Send Files to kindle easily",
     "homepage": "https://www.amazon.com/sendtokindle/pc",
     "license": "Freeware",
     "url": "https://s3.amazonaws.com/sendtokindle/SendToKindleForPC-installer.exe",
-    "hash": "38A173669B3056F1C81E24145153BE2B781C2C9E44E0EAFD01E5C93D6DEEB1F0",
+    "hash": "38a173669b3056f1c81e24145153be2b781c2c9e44e0eafd01e5c93d6deeb1f0",
     "installer": {
-        "script":[
-            "Expand-7ZipArchive \"$dir\\SendToKindleForPC-installer.exe\""
-        ]
+        "script": "Expand-7ZipArchive \"$dir\\SendToKindleForPC-installer.exe\""
     },
     "post_install": "Remove-Item \"$dir\\SendToKindleForPC-installer.exe\" -Force",
     "bin": "SendToKindle.exe",
@@ -18,7 +16,7 @@
             "SendToKindle"
         ]
     ],
-    "checkver":{
+    "checkver": {
         "script": [
             "$dl_url = 'https://s3.amazonaws.com/sendtokindle/SendToKindleForPC-installer.exe'",
             "$dl = cache_path 'SendToKindle' 'unknown' $dl_url",
@@ -30,6 +28,6 @@
         "regex": "(.+)"
     },
     "autoupdate": {
-        "url" : "https://s3.amazonaws.com/sendtokindle/SendToKindleForPC-installer.exe"
+        "url": "https://s3.amazonaws.com/sendtokindle/SendToKindleForPC-installer.exe"
     }
 }
