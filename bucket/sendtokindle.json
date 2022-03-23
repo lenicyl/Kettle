@@ -26,7 +26,8 @@
             "$version = (Get-Item $dl).VersionInfo.ProductVersion",
             "Move-Item -Force $dl -Destination (cache_path 'SendToKindle' $version $dl_url)",
             "return $version"
-        ]
+        ],
+        "regex": "(.+)"
     },
     "autoupdate": {
         "url" : "https://s3.amazonaws.com/sendtokindle/SendToKindleForPC-installer.exe"
