@@ -29,7 +29,7 @@
         "architecture": {
             "64bit": {
                 "url": "https://github.com/Vencord/Vesktop/releases/download/v$version/Vesktop-Setup-$version.exe#/dl."
-            },
-        },
+            }
+        }
     }
 }
